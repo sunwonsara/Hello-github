@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<!-- 간단 로또 번호 생성기 17. 10. 25 -->
 <html>
 <head>
   <title>로또 번호 생성기</title>
   <script>
   function generate() {
     var numbers = [];
+
     for(var i=0; i<6; i++) {
       numbers.push(Math.floor(Math.random() * 45));
     }
+
     return numbers;
   }
   </script>
@@ -25,6 +26,5 @@
     }
   })();
   </script>
-  <!-- 스크립트 끝 -->
 </body>
 </html>
